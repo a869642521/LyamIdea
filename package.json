@@ -1,0 +1,50 @@
+{
+  "name": "idea",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --webpack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "@react-three/fiber": "^9.5.0",
+    "@supabase/supabase-js": "^2.99.1",
+    "clsx": "^2.1.1",
+    "jsonrepair": "^3.13.3",
+    "lucide-react": "^0.577.0",
+    "next": "16.1.6",
+    "ogl": "^1.0.11",
+    "openai": "^6.27.0",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "react-markdown": "^10.1.0",
+    "remark-gfm": "^4.0.1",
+    "tailwind-merge": "^3.5.0",
+    "three": "^0.167.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.1.6",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  },
+  "description": "> 一个面向产品探索场景的 AI 创意工作台。   > 输入一个关键词，系统会从多个方向生成候选方案，经过 3 轮迭代、打分、筛选和补强，最终沉淀为更接近真实产品文档的方案输出。",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a869642521/LyamIdea.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/a869642521/LyamIdea/issues"
+  },
+  "homepage": "https://github.com/a869642521/LyamIdea#readme"
+}
